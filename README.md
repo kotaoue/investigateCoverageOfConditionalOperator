@@ -1,0 +1,2 @@
+# investigateCoverageOfConditionalOperator
+Investigate coverage of conditional operator.
