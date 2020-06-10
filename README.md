@@ -9,6 +9,6 @@ Investigate coverage of conditional operator.
   -> [result](build/coverage-report/)
 * 
   ```
-  ./vendor/bin/phpunit --bootstrap src/Target.php tests/TargetTest.php --coverage-html build/coverage-report
+  phpdbg -qrr ./vendor/bin/phpunit --bootstrap src/Target.php tests/TargetTest.php --coverage-html build/coverage-report-phpdbg
   ```  
   -> [result](build/coverage-report-phpdbg/)
