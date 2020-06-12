@@ -8,5 +8,6 @@ class TargetTest extends TestCase
     {
         $this->assertEquals(1, Target::returnExcludeZero(1, 0));
         $this->assertEquals(2, Target::returnExcludeZero(0, 2));
+        // $this->assertEquals(9999, Target::returnExcludeZero(0, 0));
     }
 }
