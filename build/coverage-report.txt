@@ -2,13 +2,13 @@ PHPUnit 7.5.20 by Sebastian Bergmann and contributors.
 
 .                                                                   1 / 1 (100%)
 
-Time: 114 ms, Memory: 4.00 MB
+Time: 127 ms, Memory: 4.00 MB
 
 OK (1 test, 2 assertions)
 
 
 Code Coverage Report:   
-  2020-06-12 23:16:25   
+  2020-06-12 23:19:51   
                         
  Summary:               
   Classes: 100.00% (1/1)
