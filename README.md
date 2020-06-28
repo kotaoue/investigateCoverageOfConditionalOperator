@@ -3,12 +3,12 @@ Investigate coverage of conditional operator.
 
 ## Result
 *
-  ```shell-session
+  ```ShellSession
   ./vendor/bin/phpunit --bootstrap src/Target.php tests/TargetTest.php --coverage-text > ./build/coverage-report.txt
   ```  
   -> [result](build/coverage-report.txt)
 * 
-  ```shell-session
+  ```ShellSession
   phpdbg -qrr ./vendor/bin/phpunit --bootstrap src/Target.php tests/TargetTest.php --coverage-text > ./build/coverage-report-phpdbg.txt
   ```  
   -> [result](build/coverage-report-phpdbg.txt)
